@@ -1,0 +1,59 @@
+.header{
+    width: 80%;
+    height: 900px;
+    background-color: black;
+    margin: auto;
+}
+.box1{
+    width: 100%;
+    border: 1px solid red;
+    height: 200px;
+}
+.box2{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+}
+.row1{
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+}
+.row2{
+    background-color: darkmagenta;
+    width: 80%;
+    height: 100%;
+}
+.box3{
+    width: 100%;
+    border: 1px solid red;
+    height: 200px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+li{
+    color: white;
+    font-size: 35px;
+}
+.rty{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rty div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;  
+    margin-top: 40px;
+}
+.item:hover{
+    background-color: red;
+    width: 105px;
+    height: 105px;
+}
